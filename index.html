@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body class="px-3 py-3 tracking-wider text-white bg-green-950">
+    <header id="navbar" class="fixed top-0 left-0 z-50 w-full bg-green-950">
+      <nav class="container px-3 md:px-8 mx-auto md:py-8 py-3 flex items-center justify-between h-16 sm:h-20">
+        <div class="w-20 sm:w-auto">
+          <img src="assets/img/IndorePlants..png" />
+        </div>
+
+        <div id="nav-menu" class="absolute top-0 left-[-100%] min-h-[80vh] w-full bg-green-950/80 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden lg:bg-transparent lg:min-h-fit lg:w-auto lg:static">
+          <ul class="flex flex-col items-center gap-8 lg:flex-row">
+            <li>
+              <a href="#home" class="nav-link text-lg font-bold duration-300 hover:text-yellow-500">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link text-lg font-bold duration-300 hover:text-yellow-500">About</a>
+            </li>
+            <li>
+              <a href="#popular" class="nav-link text-lg font-bold duration-300 hover:text-yellow-500">Popular</a>
+            </li>
+            <li>
+              <a href="#review" class="nav-link text-lg font-bold duration-300 hover:text-yellow-500">Review</a>
+            </li>
+          </ul>
+
+          <div class="absolute bottom-0 -right-10 opacity-90 lg:hidden">
+            <img class="w-32" src="assets/img/leaf-1.png" alt="leaf_image" />
+          </div>
+
+          <div class="absolute rotate-90 -top-5 -left-5 opacity-90 lg:hidden">
+            <img class="w-32" src="assets/img/leaf-2.png" alt="leaf_image" />
+          </div>
+        </div>
+
+        <div class="z-50 text-xl cursor-pointer sm:text-3xl lg:hidden">
+          <i class="ri-menu-4-line" id="hamburger"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="py-5 md:py-28">
+        <div>
+          <div>
+            <div>
+              <h1 class="text-3xl md:text-4xl xl:text-5xl">
+                <span class="text-yellow-500">Plants</span> make a <br />
+                positive
+                <span class="text-yellow-500">impact</span> on <br />
+                your environment
+              </h1>
+
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio fugiat eveniet, reprehenderit veritatis aut explicabo voluptatum ullam itaque tenetur numquam!</p>
+
+              <div>
+                <button>
+                  <span>Shop Now</span>
+                  <i class="ri-leaf-line"></i>
+                </button>
+
+                <button>
+                  <span>Know More</span>
+                  <i class="ri-leaf-line"></i>
+                </button>
+              </div>
+
+              <p>You will get 30-days free trial.</p>
+
+              <div>
+                <i class="ri-facebook-fill"></i>
+                <i class="ri-twitter-x-line"></i>
+                <i class="ri-instagram-line"></i>
+                <i class="ri-linkedin-fill"></i>
+              </div>
+            </div>
+
+            <div>
+              <img src="assets/img/home.png" alt="home_image" />
+
+              <div>
+                <i class="ri-leaf-line"></i>
+              </div>
+              <div>
+                <i class="ri-flower-line"></i>
+              </div>
+              <div>
+                <i class="ri-plant-line"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
